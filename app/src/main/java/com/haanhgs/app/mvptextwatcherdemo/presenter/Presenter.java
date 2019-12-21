@@ -5,8 +5,8 @@ import com.haanhgs.app.mvptextwatcherdemo.view.MainView;
 
 public class Presenter {
 
-    private User user;
-    private MainView mainView;
+    private final User user;
+    private final MainView mainView;
 
     public Presenter(MainView mainView){
         this.mainView = mainView;

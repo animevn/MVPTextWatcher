@@ -57,7 +57,9 @@ public class MainActivity extends AppCompatActivity {
                 presenter.onEmailEditText(s.toString());
             }
 
-            @Override public void afterTextChanged(Editable s) {}
+            @Override public void afterTextChanged(Editable s) {
+                pbrProgressBarMain.setVisibility(View.INVISIBLE);
+            }
         });
     }
 
