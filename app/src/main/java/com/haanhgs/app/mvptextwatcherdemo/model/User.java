@@ -28,4 +28,5 @@ public class User {
     public String toString() {
         return "Name: " + name + "\nEmail: " + email;
     }
+
 }
